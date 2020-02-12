@@ -24,7 +24,10 @@ The target collection is called `firestore-loadlock-demo` by default. If you wis
 [the server](https://github.com/djsweet/firestore-looplock-bug-report/blob/76d61748cd82c4bdc710362003f226755e523562/server/index.js#L27)
 and
 [the client](https://github.com/djsweet/firestore-looplock-bug-report/blob/76d61748cd82c4bdc710362003f226755e523562/client/index.js#L8)
-to use the same collection name. For best results, there should be no other documents in this used collection.
+to use the same collection name. For best results, there should be no other documents in this used collection. The client
+does not use Firebase Auth, so the target collection should be world-readable in order to perform this demonstration. See
+the documentation for [Firestore Security Rules](https://firebase.google.com/docs/firestore/security/get-started) for information
+on how to configure Firestore to allow unauthenticated reads from this collection.
 
 ## Caveats
 
