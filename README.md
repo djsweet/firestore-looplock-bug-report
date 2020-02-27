@@ -1,5 +1,6 @@
-This is in service of [a bug report](https://github.com/firebase/firebase-js-sdk/issues/2620)
-opened against the [Firebase JavaScript SDK](https://github.com/firebase/firebase-js-sdk).
+This was in service of [a bug report](https://github.com/firebase/firebase-js-sdk/issues/2620)
+opened against the [Firebase JavaScript SDK](https://github.com/firebase/firebase-js-sdk). As of
+Firebase SDK 7.9.0, this issue has been corrected.
 
 ## Background
 
